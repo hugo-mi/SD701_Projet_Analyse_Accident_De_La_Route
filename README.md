@@ -1,4 +1,4 @@
-# SD_701_Projet_EGDV : Analyse d'un dataset d'accident de la route
+# SD701_Projet : Analyse d'un dataset d'accident de la route
 
 **SD-701 : Projet de Data Mining**
 _Analyse d’une base de données des accidents corporels de la circulation routières_
