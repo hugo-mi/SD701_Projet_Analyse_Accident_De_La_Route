@@ -15,7 +15,7 @@ _Analyse d’une base de données des accidents corporels de la circulation rout
 **7. Application de l'algorithme Apriori (règles d'associations)** <br>
 **8. Application de l'algorithme Regression Logistique** <br>
 **9/ Conclusion & Discusion** <br>
-
+**10/ Requirements** <br>
 
 ## 1/ Présentation du projet
 
@@ -228,7 +228,7 @@ Pour un support minimum fixé à 0.0045, une confiance minimum fixé à 0.2 et u
 
 #### Interprétation
 
-L'algorithme, Apriori a été long à executer sur nos machines. Par conséquent, nous n'avons pas pu executer l'algorithme Apriori sur l'ensemble de notre jeu de données car le temps de calcul est long. Nous nous sommes contentés d'analyser les 200 premières lignes de notre jeu de données. L'inconvénient est que cet échantillon peut ne pas être représentatif de l'ensemble de note dataset.
+L'algorithme, Apriori a été long à executer sur nos machines. Par conséquent, nous n'avons pas pu executer l'algorithme Apriori sur l'ensemble de notre jeu de données car le temps de calcul est long. Nous nous sommes contentés d'analyser les 200 premières lignes de notre jeu de données ce qui nous apris 26 minutues or notre dataframe contient 21000 lignes. L'inconvénient est que cet échantillon peut ne pas être représentatif de l'ensemble de note dataset.
 
 Les informations que nous pouvons tirer du résultat généré par Apriori sont les suivantes : 
 Premièrement lorsque plusieurs véhicules sont impliqués dans un accident (entre 3 à 5 véhicules) les conséquences d'un accident peuvent être lourde jusqu'à provoquer des blesées grave ou même des morts. Cela se comprend facilement car dès lors qu'un certains nombres de véhicules sont engagés dans un accident plus les chocs sont violents. Cela correspond en fait à un carambolage. 
@@ -285,3 +285,13 @@ L'algorithme de regression linéaire confirme les résultats de l'algorithme Apr
 Cependant, nous avons relevé des incohérences dans les données par exemple, le fait qu'il ait des vehicules avec une vitesse maximale autorisé supérieur à 50km/h alors que le véhicule circule sur une autoroute dont la VMA est de 130 km/h. Ces erreurs semblent être des erreurs de saisies, cependant nous n'avons pas voulu nous attarder sur la crrection de ces erreurs car cela demanderait avant la confirmation d'un expert métier dans le domaine de la sécurité routière. La qualité des données jouent un rôle important dans le précision des algorithmes de machine learning. Un adage bien connu dans le monde de la science des données permet de résumer cela et stipule : Garbage in, garbage out. 
 
 Enfin, tout au long de l'étape de pré-processing, nous avons du faire des choix pour aggréger les différents datasets ainsi que pour sélectionner les variables à garder et celle à rejeter. Cette étape a occupé la majeur partie de notre temps car nous devions nettoyé, compilé et joindre plusieurs dataframe entre eux. Nous avons voulu prendre le temps nécéssaire afin de nous assurer de la qualité de nos données avant d'y appliquer les différents algorithme de machine learning. 
+
+## 10/ Requirements
+
+`pip install pygal_maps_fr`
+
+`pip install folium`
+
+`pip install apyori`
+
+`pip install featurewiz`
