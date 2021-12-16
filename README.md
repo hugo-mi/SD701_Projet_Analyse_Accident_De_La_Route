@@ -14,8 +14,8 @@ _Analyse d’une base de données des accidents corporels de la circulation rout
 **6. Sélection des variables** <br>
 **7. Application de l'algorithme Apriori (règles d'associations)** <br>
 **8. Application de l'algorithme Regression Logistique** <br>
-**9/ Conclusion & Discusion** <br>
-**10/ Requirements** <br>
+**9. Conclusion & Discusion** <br>
+**10. Requirements** <br>
 
 ## 1/ Présentation du projet
 
