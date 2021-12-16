@@ -1,0 +1,108 @@
+﻿dep;departement;region;num_region;zone_dep;liste_region;num_liste_region;zone
+1;Ain;Auvergne-Rhône-Alpes;1;SE;Auvergne-Rhône-Alpes;1;SE
+2;Aisne;Hauts-de-France;9;NE;Bourgogne-Franche-Comté;2;NE
+3;Allier;Auvergne-Rhône-Alpes;1;SE;Bretagne;3;NO
+4;Alpes-de-Haute-Provence;Provence-Alpes-Côte d'Azur;18;SE;Centre-Val de Loire;4;NO
+5;Hautes-Alpes;Provence-Alpes-Côte d'Azur;18;SE;Corse;5;SE
+6;Alpes-Maritimes;Provence-Alpes-Côte d'Azur;18;SE;Grand Est;6;NE
+7;Ardèche;Auvergne-Rhône-Alpes;1;SE;Guadeloupe;7;OM
+8;Ardennes;Grand Est;6;NE;Guyane;8;OM
+9;Ariège;Occitanie;16;SO;Hauts-de-France;9;NE
+10;Aube;Grand Est;6;NE;Île-de-France;10;IDF
+11;Aude;Occitanie;16;SO;La Réunion;11;OM
+12;Aveyron;Occitanie;16;SO;Martinique;12;OM
+13;Bouches-du-Rhône;Provence-Alpes-Côte d'Azur;18;SE;Mayotte;13;OM
+14;Calvados;Normandie;14;NO;Normandie;14;NO
+15;Cantal;Auvergne-Rhône-Alpes;1;SE;Nouvelle-Aquitaine;15;SO
+16;Charente;Nouvelle-Aquitaine;15;SO;Occitanie;16;SO
+17;Charente-Maritime;Nouvelle-Aquitaine;15;SO;Pays de la Loire;17;NO
+18;Cher;Centre-Val de Loire;4;NO;Provence-Alpes-Côte d'Azur;18;SE
+19;Corrèze;Nouvelle-Aquitaine;15;SO;Nouvelle-Calédonie;19;OM
+2A;Corse-du-Sud;Corse;5;SE;Polynésie française;20;OM
+2B;Haute-Corse;Corse;5;SE;Wallis_et_Futuna;21;OM
+21;Côte-d'Or;Bourgogne-Franche-Comté;2;NE;Saint-Barthélemy;22;OM
+22;Côtes d'Armor;Bretagne;3;NO;Saint-Martin;23;OM
+23;Creuse;Nouvelle-Aquitaine;15;SO;Saint-Pierre-et-Miquelon;24;OM
+24;Dordogne;Nouvelle-Aquitaine;15;SO;;;
+25;Doubs;Bourgogne-Franche-Comté;2;NE;;;
+26;Drôme;Auvergne-Rhône-Alpes;1;SE;;;
+27;Eure;Normandie;14;NO;;;
+28;Eure-et-Loir;Centre-Val de Loire;4;NO;;;
+29;Finistère;Bretagne;3;NO;;;
+30;Gard;Occitanie;16;SO;;;
+31;Haute-Garonne;Occitanie;16;SO;;;
+32;Gers;Occitanie;16;SO;;;
+33;Gironde;Nouvelle-Aquitaine;15;SO;;;
+34;Hérault;Occitanie;16;SO;;;
+35;Ille-et-Vilaine;Bretagne;3;NO;;;
+36;Indre;Centre-Val de Loire;4;NO;;;
+37;Indre-et-Loire;Centre-Val de Loire;4;NO;;;
+38;Isère;Auvergne-Rhône-Alpes;1;SE;;;
+39;Jura;Bourgogne-Franche-Comté;2;NE;;;
+40;Landes;Nouvelle-Aquitaine;15;SO;;;
+41;Loir-et-Cher;Centre-Val de Loire;4;NO;;;
+42;Loire;Auvergne-Rhône-Alpes;1;SE;;;
+43;Haute-Loire;Auvergne-Rhône-Alpes;1;SE;;;
+44;Loire-Atlantique;Pays de la Loire;17;NO;;;
+45;Loiret;Centre-Val de Loire;4;NO;;;
+46;Lot;Occitanie;16;SO;;;
+47;Lot-et-Garonne;Nouvelle-Aquitaine;15;SO;;;
+48;Lozère;Occitanie;16;SO;;;
+49;Maine-et-Loire;Pays de la Loire;17;NO;;;
+50;Manche;Normandie;14;NO;;;
+51;Marne;Grand Est;6;NE;;;
+52;Haute-Marne;Grand Est;6;NE;;;
+53;Mayenne;Pays de la Loire;17;NO;;;
+54;Meurthe-et-Moselle;Grand Est;6;NE;;;
+55;Meuse;Grand Est;6;NE;;;
+56;Morbihan;Bretagne;3;NO;;;
+57;Moselle;Grand Est;6;NE;;;
+58;Nièvre;Bourgogne-Franche-Comté;2;NE;;;
+59;Nord;Hauts-de-France;9;NE;;;
+60;Oise;Hauts-de-France;9;NE;;;
+61;Orne;Normandie;14;NO;;;
+62;Pas-de-Calais;Hauts-de-France;9;NE;;;
+63;Puy-de-Dôme;Auvergne-Rhône-Alpes;1;SE;;;
+64;Pyrénées-Atlantiques;Nouvelle-Aquitaine;15;SO;;;
+65;Hautes-Pyrénées;Occitanie;16;SO;;;
+66;Pyrénées-Orientales;Occitanie;16;SO;;;
+67;Bas-Rhin;Grand Est;6;NE;;;
+68;Haut-Rhin;Grand Est;6;NE;;;
+69;Rhône;Auvergne-Rhône-Alpes;1;SE;;;
+70;Haute-Saône;Bourgogne-Franche-Comté;2;NE;;;
+71;Saône-et-Loire;Bourgogne-Franche-Comté;2;NE;;;
+72;Sarthe;Pays de la Loire;17;NO;;;
+73;Savoie;Auvergne-Rhône-Alpes;1;SE;;;
+74;Haute-Savoie;Auvergne-Rhône-Alpes;1;SE;;;
+75;Paris;Île-de-France;10;IDF;;;
+76;Seine-Maritime;Normandie;14;NO;;;
+77;Seine-et-Marne;Île-de-France;10;IDF;;;
+78;Yvelines;Île-de-France;10;IDF;;;
+79;Deux-Sèvres;Nouvelle-Aquitaine;15;SO;;;
+80;Somme;Hauts-de-France;9;NE;;;
+81;Tarn;Occitanie;16;SO;;;
+82;Tarn-et-Garonne;Occitanie;16;SO;;;
+83;Var;Provence-Alpes-Côte d'Azur;18;SE;;;
+84;Vaucluse;Provence-Alpes-Côte d'Azur;18;SE;;;
+85;Vendée;Pays de la Loire;17;NO;;;
+86;Vienne;Nouvelle-Aquitaine;15;SO;;;
+87;Haute-Vienne;Nouvelle-Aquitaine;15;SO;;;
+88;Vosges;Grand Est;6;NE;;;
+89;Yonne;Bourgogne-Franche-Comté;2;NE;;;
+90;Territoire de Belfort;Bourgogne-Franche-Comté;2;NE;;;
+91;Essonne;Île-de-France;10;IDF;;;
+92;Hauts-de-Seine;Île-de-France;10;IDF;;;
+93;Seine-St-Denis;Île-de-France;10;IDF;;;
+94;Val-de-Marne;Île-de-France;10;IDF;;;
+95;Val-D'Oise;Île-de-France;10;IDF;;;
+971;Guadeloupe;Guadeloupe;7;OM;;;
+972;Martinique;Martinique;12;OM;;;
+973;Guyane;Guyane;8;OM;;;
+974;La Réunion;La Réunion;11;OM;;;
+976;Mayotte;Mayotte;13;OM;;;
+988;non_rens;Nouvelle-Calédonie;19;OM;;;
+987;non_rens;Polynésie française;20;OM;;;
+986;non_rens;Wallis_et_Futuna;21;OM;;;
+977;non_rens;Saint-Barthélemy;22;OM;;;
+978;non_rens;Saint-Martin;23;OM;;;
+975;non_rens;Saint-Pierre-et-Miquelon;24;OM;;;
