@@ -15,6 +15,8 @@ _Analyse d’une base de données des accidents corporels de la circulation rout
 <a href="#section-7">**7/ Algorithme Apriori**</a><br>
 <a href="#section-8">**8/ Algorithme Regression Logistique**</a><br>
 
+ - [3/ Présentation du « Dataset »**](#section-3)
+
 <div id="section-1">1/ Présentation du projet</div>
 
 Dans le cadre du projet SD 701 nous souhaitons analyser une base de données des accidents corporels de la circulation routières. 
