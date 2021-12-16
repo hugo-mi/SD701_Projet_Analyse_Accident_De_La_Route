@@ -181,11 +181,11 @@ Le résultat de **_featurewiz _** est le suivant :
 
 ![](https://github.com/hugo-mi/SD701_Projet_Analyse_Accident_De_La_Route/blob/development/img/featurewize_output3.png)
 
-Ensuite, pour appliquer notre  **𝑅é𝑔𝑟𝑒𝑠𝑠𝑖𝑜𝑛   𝐿𝑜𝑔𝑖𝑠𝑡𝑖𝑞𝑢𝑒**  et  l'algorithme **𝐴𝑃𝑟𝑖𝑜𝑟𝑖** nous souhaitons conserver uniquement 10 variables. Pour cela utilisons une Wrapper methods, en particulier de la **_RFE _**(acronyme pour Recursive Feature Elimination).
-Le principe est simple : on fournit un modèle à l'algorithme **_RFE _**(ici LogisticRegression), qui est ajusté sur le jeu de données complet. L'importance de chaque feature est estimée et il supprime la ou les features les moins importantes, puis il recommence. Une fois le nombre de features cible atteint, on retourne le jeu de features qui a fourni le meilleur résultat sur le jeu d'entrainement.
-RFE est un algorithme de sélection de caractéristiques de type wrapper. Cela signifie qu'un algorithme d'apprentissage automatique différent est fourni et utilisé au cœur de la méthode, est enveloppé (wrapped) par **_RFE _**et utilisé pour aider à sélectionner les fonctionnalités.
+Ensuite, pour appliquer notre  **𝑅é𝑔𝑟𝑒𝑠𝑠𝑖𝑜𝑛   𝐿𝑜𝑔𝑖𝑠𝑡𝑖𝑞𝑢𝑒**  et  l'algorithme **𝐴𝑃𝑟𝑖𝑜𝑟𝑖** nous souhaitons conserver uniquement 10 variables. Pour cela utilisons une Wrapper methods, en particulier de la **_RFE _** (acronyme pour Recursive Feature Elimination).
+Le principe est simple : on fournit un modèle à l'algorithme **_RFE _** (ici LogisticRegression), qui est ajusté sur le jeu de données complet. L'importance de chaque feature est estimée et il supprime la ou les features les moins importantes, puis il recommence. Une fois le nombre de features cible atteint, on retourne le jeu de features qui a fourni le meilleur résultat sur le jeu d'entrainement.
+RFE est un algorithme de sélection de caractéristiques de type wrapper. Cela signifie qu'un algorithme d'apprentissage automatique différent est fourni et utilisé au cœur de la méthode, est enveloppé (wrapped) par **_RFE _** et utilisé pour aider à sélectionner les fonctionnalités.
 
-Techniquement, **_RFE _**est un algorithme de sélection de caractéristiques de style wrapper qui utilise également la sélection de caractéristiques basée sur un filtre en interne.
+Techniquement, **_RFE _** est un algorithme de sélection de caractéristiques de style wrapper qui utilise également la sélection de caractéristiques basée sur un filtre en interne.
 
 **_RFE_** fonctionne en recherchant un sous-ensemble de fonctionnalités en commençant par toutes les fonctionnalités du jeu de données d'apprentissage et en supprimant avec succès les fonctionnalités jusqu'à ce que le nombre souhaité reste.
 
