@@ -288,7 +288,7 @@ Enfin, tout au long de l'étape de pré-processing, nous avons du faire des choi
 
 ## 10/ Requirements
 
-`pip install pygal_maps_fr`
+``` python pip install pygal_maps_fr```
 
 `pip install folium`
 
