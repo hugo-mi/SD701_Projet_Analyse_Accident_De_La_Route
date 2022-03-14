@@ -288,10 +288,19 @@ Enfin, tout au long de l'étape de pré-processing, nous avons du faire des choi
 
 ## 10/ Requirements
 
-``` python pip install pygal_maps_fr```
+```python pip install pygal_maps_fr```
 
-`pip install folium`
+```python pip install folium```
 
-`pip install apyori`
+```python pip install apyori```
 
-`pip install featurewiz`
+```python pip install featurewiz```
+
+```python 
+%%time
+best_model = XGBClassifier(booster='gbtree', learning_rate=0.3, 
+                     max_depth=6, n_estimators=101, 
+                     colsample_bynode=1, colsample_bytree=1,
+                     subsample=1, gamma=0)
+best_model.fit(X_dataframe, y_dataframe)
+```
